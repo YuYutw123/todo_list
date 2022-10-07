@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced one</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <main class="app">
+
+        <section class="greeting">
+            <h2 class="title">
+                今天又想幹什麼大事了，<input type="text" id="name" placeholder="(名字)">
+            </h2>
+        </section>
+
+        <section class="create-todo">
+            <h3>建立To-do list</h3>
+            <form id="new-todo-form">
+                <h4>你有什麼想做的？</h4>
+                <input 
+                    type="text" 
+                    name="content" 
+                    id="content" 
+                    placeholder="例如: 睡覺一整天"/>
+                <h4>選個分類嗎&#x1F239;</h4>
+                <div class="options">
+
+                    <label>
+                        <input 
+                            type="radio"
+                            name="category"
+                            id="category1"
+                            value="school"/>
+                        <span class="bubble school"></span>
+                        <div>學校</div>
+                    </label>
+                    <label>
+                        <input 
+                            type="radio"
+                            name="category"
+                            id="category2"
+                            value="personal"/>
+                        <span class="bubble personal"></span>
+                        <div>個人</div>
+                    </label>
+
+                </div>
+
+                <input type="submit" value="添加到To-do list" />
+            </form>
+        </section>
+
+        <section class="todo-list">
+            <h3>To-do list</h3>
+            <div class="list" id="todo-list">
+
+                <!-- <div class="todo-item">
+                    <label>
+                        <input type="checkbox">
+                        <span class="bubble business"></span>
+                    </label>
+
+                    <div class="todo-content">
+                        <input type="text" value="Sleep" readonly />
+                    </div>
+
+                    <div class="actions">
+                        <button class="edit">編輯</button>
+                        <button class="delete">刪除</button>
+                    </div>
+
+                </div> -->
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
