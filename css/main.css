@@ -230,3 +230,7 @@ input:checked ~ .bubble::after {
     text-decoration: line-through;
     color: var(--gray);
 }
+
+.todo-item {
+    margin: 2rem;
+}
