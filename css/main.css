@@ -182,6 +182,7 @@ input:checked ~ .bubble::after {
     background-color: #fff;
     padding: 1rem;
     border-radius: 0.5rem;
+    margin: 0.5rem;
 }
 
 .todo-item label {
@@ -229,8 +230,4 @@ input:checked ~ .bubble::after {
 .todo-item.done .todo-content input {
     text-decoration: line-through;
     color: var(--gray);
-}
-
-.todo-item {
-    margin: 2rem;
 }
